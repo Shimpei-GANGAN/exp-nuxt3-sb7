@@ -1,0 +1,75 @@
+{
+  "name": "create-nuxt3-app",
+  "description": "Create Nuxt3 App Template",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shimpei-GANGAN/create-nuxt3-app"
+  },
+  "engines": {
+    "node": "^16.10.0 || >=18.0.0",
+    "yarn": "🚨:Please use npm instead."
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -o",
+    "dev:help": "nuxt dev --help",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore --fix .",
+    "test:ut": "vitest",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:prev": "histoire preview"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.6"
+  },
+  "devDependencies": {
+    "@histoire/plugin-nuxt": "^0.16.5",
+    "@histoire/plugin-vue": "^0.16.5",
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "0.1.1",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/i18n": "^8.0.0-rc.3",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@types/node": "^18.17.1",
+    "@volar/vue-typescript": "^1.6.5",
+    "@vueuse/core": "^10.4.0",
+    "@vueuse/nuxt": "^10.4.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vitest": "^0.2.8",
+    "histoire": "^0.16.5",
+    "nuxt": "^3.7.1",
+    "prettier": "^3.0.1",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "unplugin-auto-import": "^0.16.6",
+    "vitest": "^0.34.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0",
+    "prettier": ">=3.0.0",
+    "typescript": ">=4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

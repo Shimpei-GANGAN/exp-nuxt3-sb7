@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // NOTE: https://github.com/simonhaenisch/prettier-plugin-organize-imports
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "cSpell.userWords": [
+    "nuxt",
+    "nuxtjs",
+    "composables",
+    "histoire",
+    "pinia",
+    "persistedstate",
+    "vueuse"
+  ]
+}

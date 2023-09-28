@@ -1,0 +1,12 @@
+{
+  "extends": "./src/.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": ["vitest/importMeta"]
+  },
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "src/.nuxt/auto-imports.d.ts"
+  ]
+}
