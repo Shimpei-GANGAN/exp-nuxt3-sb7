@@ -37,6 +37,7 @@
     "@nuxt/eslint-config": "0.1.1",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/i18n": "^8.0.0-rc.3",
+    "@nuxtjs/storybook": "^7.0.0",
     "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
     "@types/node": "^18.17.1",
     "@volar/vue-typescript": "^1.6.5",
