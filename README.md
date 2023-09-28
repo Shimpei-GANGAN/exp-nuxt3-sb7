@@ -1,5 +1,5 @@
 <h1 align="center">
-  <p>create-nuxt3-app</p>
+  <p>exp-nuxt3-sb7</p>
 </h1>
 
 <p align="center">
@@ -29,7 +29,7 @@
 
 ## About
 
-Nuxt3 のテンプレートリポジトリ
+[Experiment] Nuxt3 + Storybook@v7.x + Pinia
 
 ## Environment
 
