@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "@nuxtjs/eslint-module",
+    "@nuxtjs/storybook",
   ],
   imports: {
     dirs: ["stores"],
@@ -36,5 +37,8 @@ export default defineNuxtConfig({
   },
   eslint: {
     cache: false,
+  },
+  storybook: {
+    port: 6006,
   },
 });
